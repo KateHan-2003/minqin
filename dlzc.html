@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>请到民勤种棵树</title>
+    <link rel="stylesheet" href="css/dlzc.css">
+</head>
+<body>
+    <div id="box">
+        <div class="carousel-container">
+            <div class="carousel-slides">
+                <div class="slide active">
+                    <img src="images/zc6.jpg" width="100%" height="580px">
+                </div>
+                <div class="slide">
+                    <img src="images/2.jpg" width="100%" height="580px">
+                </div>
+                <div class="slide">
+                    <img src="images/hd1.jpg" width="100%" height="580px">
+                </div>
+            </div>
+            <button class="carousel-control prev">&#10094;</button>
+            <button class="carousel-control next">&#10095;</button>
+            <div class="carousel-indicators">
+                <span class="indicator active" data-slide-to="0"></span>
+                <span class="indicator" data-slide-to="1"></span>
+                <span class="indicator" data-slide-to="2"></span>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="zcxc.html">政策宣传</a></li>
+                <li><a href="hdfc.html">活动风采</a></li>
+                <li><a href="gyzn.html">公益助农</a></li>
+                <li><a href="dlzc.html">登录注册</a></li>
+            </ul>
+        </nav>
+        <p class="sy">————登录注册————</p>
+        <div class="d1">
+            <img src="images/hd8.jpg"  width="1000px" height="550px" >
+        </div>
+        <p class="l1">“今日之责任，不在他人，而全在我少年”
+			<br /><br/>	“拥有向下扎根的力量，方得向上生长的繁华”		
+			<br /><br />“种下希望的树，迎接希望的绿洲，让来年这里生机勃勃起来吧！”</p>
+            <div class="d2">
+                <img src="images/hd5.jpg" width="500px" height="450px"/>
+            </div>
+            <div class="foot">
+                <p class="foot-zi">~~~~~~~~~~~~~~~~“拥有向下扎根的力量，方得向上生长的繁华”~~~~~~~~~~~~~~~~</p>
+            </div>
+            <div class="form-container">
+                <!-- 登录表单 -->
+                <div class="form" id="login-form">
+                    <h2>登录</h2>
+                    <form id="login">
+                        <div class="form-group">
+                            <label for="login-username">用户名</label>
+                            <input type="text" id="login-username" required>
+                            <div class="error" id="login-username-error"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="login-password">密码</label>
+                            <input type="password" id="login-password" required>
+                            <div class="error" id="login-password-error"></div>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit">登录</button>
+                        </div>
+                    </form>
+                    <div class="toggle-form">
+                        还没有账号? <a id="show-register">注册</a >
+                    </div>
+                </div>
+        
+                <!-- 注册表单 -->
+                <div class="form hidden" id="register-form">
+                    <h2>注册</h2>
+                    <form id="register">
+                        <div class="form-group">
+                            <label for="register-username">用户名</label>
+                            <input type="text" id="register-username" required>
+                            <div class="error" id="register-username-error"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="register-email">邮箱</label>
+                            <input type="email" id="register-email" required>
+                            <div class="error" id="register-email-error"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="register-password">密码</label>
+                            <input type="password" id="register-password" required>
+                            <div class="error" id="register-password-error"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="register-confirm-password">确认密码</label>
+                            <input type="password" id="register-confirm-password" required>
+                            <div class="error" id="register-confirm-password-error"></div>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit">注册</button>
+                        </div>
+                    </form>
+                    <div class="toggle-form">
+                        已有账号? <a id="show-login">登录</a >
+                    </div>
+                </div>
+            </div>
+    </div>
+    <script src="js/dlzc.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
